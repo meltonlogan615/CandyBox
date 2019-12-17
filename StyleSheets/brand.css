@@ -1,0 +1,19 @@
+.flag {
+	position: relative;
+}
+
+.itemCard {
+
+
+}
+
+
+
+.brandLabel {
+
+}
+
+.flag:hover .brandLabel {
+  visibility: visible;
+  opacity: 1;
+}

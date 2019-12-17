@@ -1,0 +1,22 @@
+/* AboutUs Page Specific CSS*/
+
+p a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+p a:hover{
+	text-decoration: underline;
+	}
+	
+#SelfPortait {
+	height = 252px;
+	width = 192px;
+	padding-top: 0.5em;
+	}
+	
+.mainContent {
+	padding-bottom: 1em;
+	margin-bottom: 5em;
+	}

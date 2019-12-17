@@ -1,0 +1,18 @@
+Types of Candy
+	Chocolate
+		Chocolate bars (choc only)
+		Chocolate + Nuts
+		Chocolate + Caramel
+		Chocolate + Nugat
+		Chocolate + grab bag
+		
+	Caramels
+		Hard
+		Chewy
+		Chocolate covered
+		
+	Sugar Candies
+		
+	Gummies
+		Regular
+		Sour

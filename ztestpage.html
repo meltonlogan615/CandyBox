@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!-- Start Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152422621-1"></script>
+		<script src="/JS/ganaltyics.js"></script>
+
+<!-- End Global site tag (gtag.js) - Google Analytics -->
+		
+		<title>CandyBox.World</title>
+		
+<!-- Start Import of Style Sheets -->
+		<link rel="stylesheet" type="text/css" href="StyleSheets/candy.css">
+		<link rel="stylesheet" type="text/css" href="StyleSheets/ztest.css">
+		<link rel="stylesheet" type="text/css" href="StyleSheets/explore.css">
+
+<!-- End Import of Style Sheets -->
+<!--testing json-->
+
+
+	</head>
+	
+	<body>
+	<!--
+		<div class="header">
+			<div class="logo"></div>
+		
+				<div class="navBar">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Explore.html">Explore</a></li>
+						<li>
+							<div class="dropdown">Profile
+  								<div class="dropdown-content">
+ 								 <a href="WishList.html">Wish List</a>
+ 								 <a href="Shipments.html">Shipments</a>
+ 								 <a href="AccountInfo.html">Account Info</a>
+ 								</div>
+ 							</div>
+ 						</li>
+  						<li>Search</li>
+					</ul>
+				</div>
+			</div>
+-->
+
+<div class="mainContent">
+	<div class="container">
+
+		<button class="accordion" class="flag" >
+			<figure id="uk" id="eu"> 
+			<img src="Images/CountryFlags/uklarge.gif" width="151px" heigth="112px"/></a>
+			</figure>
+		</button>
+		<div class="panel">
+			<div class="flag" id="Hersheys">
+				<figure class="itemCard">
+				<img src="Hersheys/Logos/hersheys.svg" width="151px" heigth="112px" alt="Hershey's" title="Hershey's">
+				</figure>
+			</div>
+			<div class="flag" id="Mars">
+				<figure class="itemCard">
+				<img src="MarsUSA/Mars.png" width="151px" heigth="112px" alt="Mars USA" title="Mars USA">
+				</figure>
+			</div>
+
+			<div class="flag" id="Hersheys">
+				<figure class="itemCard">
+				<img src="Hersheys/Logos/hersheys.svg" width="151px" heigth="112px" alt="Hershey's" title="Hershey's">
+				</figure>
+			</div>
+
+			<div class="flag" id="Mars">
+				<figure class="itemCard">
+				<img src="MarsUSA/Mars.png" width="151px" heigth="112px" alt="Mars USA" title="Mars USA">
+				</figure>
+			</div>
+		</div>
+
+
+		<button class="accordion" class="flag" >
+			<figure id="flag" id="northamerica">
+			<img src="Images/CountryFlags/uslarge.gif" width="151px" heigth="112px"/>
+			</figure>
+		</button>
+
+
+		<div class="panel">
+			<div class="flag" id="Hersheys">
+				<figure class="itemCard">
+				<img src="Hersheys/Logos/hersheys.svg" width="151px" heigth="112px" alt="Hershey's" title="Hershey's">
+				</figure>
+			</div>
+
+			<div class="flag" id="Mars">
+				<figure class="itemCard">
+				<img src="MarsUSA/Mars.png" width="151px" heigth="112px" alt="Mars USA" title="Mars USA">
+				</figure>
+			</div>
+
+			<div class="flag" id="MoonPie">
+				<figure class="itemCard">
+				<img src="MoonPie/moonpie.png" width="151px" heigth="112px" alt="Moon Pie" title="Moon Pie">
+				</figure>	
+			</div>
+
+			<div class="flag" id="NestleUSA">
+				<figure class="itemCard">
+				<img src="NestleUSA/NestleLogo.png" class="brandLogo" width="151px" heigth="112px" atl="Nestle" title="Nestle">
+				</figure>
+			</div>
+
+			<div class="flag" id="StandardCandy">
+				<figure class="itemCard">
+				<img src="StandardCandy/goo-goo-logo.png" class="brandLogo" width="151px" heigth="112px" alt="Standard Candy" title="Goo Goo">
+				</figure>
+			</div>
+
+			<div class="flag" id="TasteOfNature">
+				<figure class="itemCard">
+				<img src="TasteOfNature/TONlogo_small.png" class="brandLogo" width="151px" heigth="112px" alt="Taste of Nature" title="Taste of Nature">
+				</figure>
+			</div>
+		</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="sideBarAds">
+Testy-Test Test. Testing Test. Test Test.
+</div>
+		
+
+		
+<div class="footer">
+	<ul>
+		<li><a href="About.html">About</a></li>
+		<li><a href="Terms.html">Terms & Service</a></li>
+		<li><a href=""></a></li>
+		<li><a href="ContactUs.html">Contact</a></li>
+	</ul>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "none") {
+      panel.style.display = "inline-flex";
+    } else {
+      panel.style.display = "none";
+    }
+  });
+}
+</script>
+
+</body>
+
+
+</html>
