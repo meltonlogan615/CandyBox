@@ -189,7 +189,8 @@ iframe {
 			/* Start Footer */
 .footer {
 	background-color: rgba(255, 255, 255, 0.43);
-	z-index: 1;
+	float: bottom;
+	/*z-index: 1;*/
 	position: fixed;
 	left: 0;
 	bottom: 0;
