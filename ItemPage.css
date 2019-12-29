@@ -2,17 +2,17 @@
 .mainContent {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: left;
-	
+	justify-content: center;
+	box-sizing: border-box;
 }
 
 #brandPhoto {
-
+	border: 1px solid black;
 
 
 }
 
 #itemInfo {
-
+	border: 1px solid black;
 	
 }
