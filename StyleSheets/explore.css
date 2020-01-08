@@ -1,4 +1,4 @@
-/* CSS for Explore Page  */
+			/* CSS for Explore Page */
 
 .container, .p {
 	display: flex;
@@ -33,7 +33,7 @@ button {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.5s;
     -webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center
+	align-self: center;
 	padding: auto;
 }
 
@@ -44,19 +44,10 @@ button {
     transition: 0.3s;
 }
 
-
-
-.label {
-}
-
-
-.sideBarAds {
-	width: 12%;
-}
 	
-#countryBrands {
-	display: none;
-}
+
+
+			/* Start CSS for Accordion */
 
 .accordion {
 	border-radius: 10px;
@@ -93,4 +84,20 @@ button {
 	padding: auto;
 }
 
+#countryBrands {
+	display: none;
+}
+
+			
+			/* End CSS for Accordion */
+
+/* --------------------------------------------------------*/
+	
+			/* Start CSS for Brand Pagest */
+.brandLogo {
+	width: 35%;
+    -webkit-align-self: center; /* Safari 7.0+ */
+	align-self: center;
+	margin: auto;
+}
 
