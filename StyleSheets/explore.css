@@ -19,9 +19,10 @@ button {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.5s;
     -webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center
+	align-self: center;
 	padding: auto;
 }
+
 .flag {
 	border-radius: 10px;
 	background: rgba(255, 255, 255 , 0.43);
@@ -60,7 +61,7 @@ button {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.5s;
 	-webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center
+	align-self: center;
 	padding: auto;
 	cursor: pointer;
 	text-align: left;
@@ -74,13 +75,19 @@ button {
 	transition: 0.3s;
 }
 
+.accordion:active {
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
 .panel {
 	padding: 0 18px;
 	overflow: hidden;
 	display: none;
-	flex-wrap: wrap;
+	flex-wrap: wrap; 
 	-webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center
+	align-self: center;
+	justify-content: center;
 	padding: auto;
 }
 
@@ -93,11 +100,12 @@ button {
 
 /* --------------------------------------------------------*/
 	
-			/* Start CSS for Brand Pagest */
+			/* Start CSS for Brand Pages */
 .brandLogo {
 	width: 35%;
-    -webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center;
+	-webkit-align-content: center; /* Safari 7.0+ */
+	justify-content: center;
+	align-content: center;
 	margin: auto;
 }
 
