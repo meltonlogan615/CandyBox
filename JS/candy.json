@@ -1,0 +1,43 @@
+[
+  {
+    "UPC": "",
+    "RegionA": "", 
+    "RegionB": "", 
+    "RegionC": "", 
+    "BrandParent": "",
+    "BrandName": "",
+    "Variation": "",
+    "Description": "",
+    "Weight": "",
+    "Ingredients": ["",""],
+    "Allergens": ["",""],
+    "NutritionFacts": "url",
+    "OverAllRating": "range 1-5",
+    "UserRating": "range 1-5",
+    "Seasonal": [bool, ""],
+    "Website": "url",
+    "ImgLink": "url",
+    "KeyWords": ["",""]
+  },
+  {
+    "UPC": "099900100736",
+    "RegionA": "North America", 
+    "RegionB": "USA", 
+    "RegionC": "", 
+    "BrandParent": "Ferrara Group",
+    "BrandName": "Butterfinger",
+    "Variation": "Crisp Bar",
+    "Description": "",
+    "Weight": "1.9",
+    "Ingredients": ["",""],
+    "Allergens": ["",""],
+    "NutritionFacts": "url",
+    "OverAllRating": "range 1-5",
+    "UserRating": "range 1-5",
+    "Seasonal": [bool, ""],
+    "Website": "url",
+    "ImgLink": "url",
+    "KeyWords": ["",""]
+  },
+
+]
