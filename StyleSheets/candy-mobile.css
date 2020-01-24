@@ -1,8 +1,24 @@
-		/* Global Computer/Large Screen CSS*/
+    /* Global Mobile Screen CSS*/
+    
+    /* For tablets: */
+@media only screen and (max-width:800px) {
+   .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+     /* For mobile phones: */
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
 
 html {
-	/* background-image: url("../Images/melting2-resized2.png"); */
-	background-color: rgb(255, 255, 255);
+	background-image: url("../Images/melting2-resized2.png");
+	background-color: rgb(230, 230, 230);
 	background-repeat: repeat-x;
  	font-family: Ariel, Helvetica, sans-serif;
 	font-size: 16px;
@@ -12,26 +28,23 @@ html {
 	font-weight: bold;
 	}
 
+    /* End Global Computer/Large Screen CSS*/
 
-			/* End Global Computer/Large Screen CSS*/
 /* --------------------------------------------------------*/
 
 			/* Start Header CSS */
-			
+
 .header {
 	height: 3.5em;
-	background-color: rgba(255, 255, 255, 1.0);
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
+	background-color: rgba(255, 255, 255, 0.63);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 	width: 100%;
-	height: 3em;
-	margin-bottom: 5rem;
 }
 
 .logo {
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-left: 1em;
 	float: left;
 	text-decoration: none;
@@ -42,12 +55,13 @@ html {
 
 /* --------------------------------------------------------*/
 
-			/*  Start Navigation Bar CSS */
+		/*  Start Navigation Bar CSS */
 			
 .navBar {
 	float: right;
 	margin-right: 2em;
-
+  overflow: hidden;
+  position: relative;
 	}
 
 .navBar li {
@@ -57,31 +71,28 @@ html {
 	margin: 0.0625em;
 	padding: 0.3em;
 	color: black;
+	font-weight: bold;
 	text-align: center;
 	margin-right: 0.1875em;
 	overflow: hidden;
-	font-size: 1em;
+  font-size: 1em;
+  display: none; 
 	}
 	
 .navBar li a {
 	color: black;
 	text-decoration: none;
 	}
-
-	.navBar li a:active {
-	font-weight: bold;
-}
 	
 .navBar li a:hover{
 	text-decoration: underline;
 	}
-
 	
-			/* End Navigation Bar CSS */
+		/* End Navigation Bar CSS */
 
 /* --------------------------------------------------------*/
 
-			/* Start Profile Dropdown Navigation*/
+		/* Start Profile Dropdown Navigation*/
 			
 .dropdown {
 	position: relative;
@@ -95,7 +106,7 @@ html {
 	position: absolute;
 	padding-right: 20%;
 	min-width: 100px;
-	background-color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(255, 255, 255, 0.73);
 	z-index: 1;
 }
 
@@ -107,7 +118,7 @@ html {
 }
 
 .dropdown-content a:hover {
-	background-color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(255, 255, 255, 0.43);
 	}
 
 .dropdown:hover .dropdown-content {
@@ -118,7 +129,7 @@ html {
 
 /* --------------------------------------------------------*/
 
-			/* Start Navigation Search Box */
+    /* Start Navigation Search Box */
 
 .navBar .search-container
 input[type=text] {
@@ -131,22 +142,24 @@ input[type=text] {
  input[type=text]:focus {
   width: 50%;
 }
-			/* End Navigation Search Box */
+		/* End Navigation Search Box */
 
 /* --------------------------------------------------------*/
 
-			/* End Navigation Bar CSS */
+		/* End Navigation Bar CSS */
 
 /* --------------------------------------------------------*/
 	
-			/* Start Main Page Content */
-			
-.mainContent {
-	/* background-color: rgba(255, 255, 255, 0.43); */
-	margin-top: 4rem; 
-	padding-top: 2rem;
+		/* Start Main Page Content */
 
+.mainContent {
+	background-color: rgba(255, 255, 255, 0.43);
+	margin-top: 0.75rem; 
+	padding-top: 2rem;
+	padding-left: 1rem;
 	padding-bottom: 2.5rem;
+	float: left;
+	width: 83%;
 	}
 
 /* --------------------------------------------------------*/
@@ -154,9 +167,9 @@ input[type=text] {
 			/* Start SlideShow */
 
 .slideshow-container {
-	margin: auto;
-	justify-content: center;
-	align-content: center;
+  max-width: 80%x;
+  position: relative;
+  margin: auto;
 }
 
 .mySlides {
@@ -187,15 +200,15 @@ input[type=text] {
 	padding-left: 0.5%;
 	padding-right: 1%;
 	float: right;
-	diplay: inline;
 	width: 12%;
-	position: sticky;
+  position: sticky;
+  display: none;
 	}
 
-iframe {
+/* iframe {
 	width: 78%;
 	height: 600px;
-	}
+	} */
 
 			/*  End Main Page Content */
 			
@@ -203,17 +216,18 @@ iframe {
 
 			/* Start Footer */
 .footer {
-	background-color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(255, 255, 255, 0.43);
+	/*float: bottom;
+	z-index: 1;*/
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	height: 3em;
-	border: 1px solid black;
 	}
 	
 .footer ul li {
-	/* background-color: rgba(255, 255, 255, 0.43); */
+	background-color: rgba(255, 255, 255, 0.43);
 	list-style-type: none;
 	display: inline;
 	margin: 0.25em;
