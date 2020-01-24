@@ -16,6 +16,7 @@
 		
 <!-- Start Import of Style Sheets -->
 		<link rel="stylesheet" type="text/css" href="StyleSheets/candy.css">
+		<link rel="stylesheet" type="text/css" href="StyleSheets/candy-mobile.css">
 <!-- End Import of Style Sheets -->
 
 <!-- Start MetaData -->
@@ -33,23 +34,28 @@
 <!-- Start Header -->
 	<div class="header">
 		<div class="logo"><a href="index.html">Logo Goes Here</div>
-			<div class="navBar">
 <!-- Start navBar -->
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="Explore.html">Explore</a></li>
-  					<li>
-  						<div class="dropdown">Profile
-  						<div class="dropdown-content">
- 							<a href="WishList.html">Wish List</a>
- 							<a href="Shipments.html">Shipments</a>
- 							<a href="Profile.html">Account</a>
- 						</div>
- 						</div>
- 					</li>
-  					<li><!--<input type="text" name="search" placeholder="Search">-->Search</li>
-				</ul>
-			</div>
+		<div class="navBar">
+			<ul>
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="Explore.html">Explore</a></li>
+					<li>
+						<div class="dropdown">Profile
+						<div class="dropdown-content">
+						<a href="WishList.html">Wish List</a>
+						<a href="Shipments.html">Shipments</a>
+						<a href="Profile.html">Account</a>
+					</div>
+					</div>
+				</li>
+					<li><!--<input type="text" name="search" 
+						<input type="text" class="search" placeholder="BrandName or BrandParent">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+						placeholder="Search">-->Search</li>
+			</ul>
+		</div>
 <!-- End navBar -->
 		</div>
 	</div>
@@ -99,7 +105,7 @@
 
 </div>
 
-<div class="sideBarAds"><img src="Images/sideAdExample.jpeg"></div>
+<!-- <div class="sideBarAds"><img src="Images/sideAdExample.jpeg"></div> -->
 
 <!--<iframe>Map Space</iframe>-->
 		
@@ -112,9 +118,10 @@
 				<li><a href="https://www.instagram.com/candybox.world/" target="_blank"><img src="images/instagram.png" height="16px" width="16px" ></a></li>
 				<li class="copy-name">&copy KL Candy LLC 2020</li>
 			</ul>
-			</div>
+		</footer>
 
 <script src="JS/slideshow.js"></script>
+<script src="JS/autoCompleteSearch.js"></script>
 
 </body>
 

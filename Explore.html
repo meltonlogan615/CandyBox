@@ -34,31 +34,30 @@
 	
 <body>	
 <!-- Start Header -->
-	<div class="header">
-		<div class="logo"><a href="index.html">Logo Goes Here
-		</div>
-		<div class="navBar">
+<div class="header">
+	<div class="logo"><a href="index.html">Logo</div>
+
 <!-- Start navBar -->
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="Explore.html">Explore</a></li>
-  				<li>
-  					<div class="dropdown">Profile
-  					<div class="dropdown-content">
+	<div class="navBar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a href="Explore.html">Explore</a></li>
+  			<li>
+  				<div class="dropdown">Profile
+  				<div class="dropdown-content">
  						<a href="WishList.html">Wish List</a>
  						<a href="Shipments.html">Shipments</a>
  						<a href="Profile.html">Account</a>
  					</div>
  					</div>
  				</li>
-  				<li><!--<input type="text" name="search" placeholder="Search">-->Search</li>
-			</ul>
-		</div>
+  			<li><!--<input type="text" name="search" placeholder="Search">-->Search</li>
+		</ul>
+	</div>
 <!-- End navBar -->
 	</div>
-
 <!-- End Header -->
-<!-- start pageview Grid - main content -->
+
 <!-- start FlexBox area of flags -->
 <div class="mainContent">
 	<div class="container">
@@ -753,7 +752,6 @@
 			<div class="flag" id="philippines">
 				<figure>
 				<img src="Images/CountryFlags/philippineslarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Philippines</figcaption>
 				</figure>
 			</div>
 			
@@ -761,7 +759,6 @@
 			<div class="flag" id="poland">
 				<figure>
 				<img src="Images/CountryFlags/polandlarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Poland</figcaption>
 				</figure>
 			</div>
 			
@@ -769,7 +766,6 @@
 			<div class="flag" id="portugal">
 				<figure>
 				<img src="Images/CountryFlags/portugallarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Portugal</figcaption>
 				</figure>
 			</div>
 			
@@ -777,7 +773,6 @@
 			<div class="flag" id="russia">
 				<figure>
 				<img src="Images/CountryFlags/russialarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Russia</figcaption>
 				</figure>
 			</div>
 			
@@ -785,7 +780,6 @@
 			<div class="flag" id="slovakia">
 				<figure>
 				<img src="Images/CountryFlags/slovakialarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Sovakia</figcaption>
 				</figure>
 			</div>
 			
@@ -793,23 +787,20 @@
 			<div class="flag" id="southafrica">
 				<figure>
 				<img src="Images/CountryFlags/southafricalarge.gif" width="151px" heigth="112px"/>
-				<figcaption>South Africa</figcaption>
 				</figure>
 			</div>
-			
+	</div>
 			<!--South Korea - SE Asia-->
 			<div class="flag" id="southkorea">
 				<figure>
 				<img src="Images/CountryFlags/southkorealarge.gif" width="151px" heigth="112px"/>
-				<figcaption>South Korea</figcaption>
 				</figure>
 			</div>
-			
+<div hidden>
 			<!--Spain - Western Europe-->
 			<div class="flag" id="spain">
 				<figure>
 				<img src="Images/CountryFlags/spainlarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Spain</figcaption>
 				</figure>
 			</div>
 			
@@ -817,18 +808,17 @@
 			<div class="flag" id="sweden">
 				<figure>
 				<img src="Images/CountryFlags/swedenlarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Sweden</figcaption>
 				</figure>
 			</div>
-			
+		</div>
+		
 			<!--Switzerland - Western Europe-->
 			<div class="flag" id="switzerland">
 				<figure>
 				<img src="Images/CountryFlags/switzerlandlarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Switzerland</figcaption>
 				</figure>
 			</div>
-			
+	<div hidden>
 			<!--Syria - Middle East-->
 			<div class="flag" id="syria">
 				<figure>
@@ -849,7 +839,6 @@
 			<div class="flag" id="thailand">
 				<figure>
 				<img src="Images/CountryFlags/thailandlarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Thailand</figcaption>
 				</figure>
 			</div>
 				
@@ -857,7 +846,6 @@
 			<div class="flag">
 				<figure>
 				<img src="Images/CountryFlags/tibetlarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Tibet</figcaption>
 				</figure>
 			</div>
 			
@@ -865,7 +853,6 @@
 			<div class="flag" id="turkey">
 				<figure>
 				<img src="Images/CountryFlags/turkeylarge.gif" width="151px" heigth="112px"/>
-				<figcaption>Turkey</figcaption>
 				</figure>
 			</div>
 	</div>
@@ -1242,7 +1229,7 @@
 </div>
 
 
-<div class="sideBarAds"><img src="Images/sideAdExample.jpeg"></div>
+<!-- <div class="sideBarAds"><img src="Images/sideAdExample.jpeg"></div> -->
 <!-- end FlexBox area of flags -->
 <!-- end pageview Grid - main content -->
 
@@ -1262,22 +1249,7 @@
 			</ul>
 		</div>
 
-<script src="js/toggle-show-hide.js">
-// var acc = document.getElementsByClassName("accordion");
-// var i;
-
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.display === "none") {
-//       panel.style.display = "inline-flex";
-//     } else {
-//       panel.style.display = "none";
-//     }
-//   });
-// }
-</script>
+<script src="js/toggle-show-hide.js"></script>
 
 	</body>
 
