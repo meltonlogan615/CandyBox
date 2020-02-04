@@ -1,4 +1,10 @@
 		/* Global Computer/Large Screen CSS*/
+		@import url("About.css");
+		@import url("brand.css");
+		@import url("explore.css");
+		@import url("forms.css");
+		@import url("ItemPage.css");
+		@import url("reset.css");
 
 html {
 	/* background-image: url("../Images/melting2-resized2.png"); */
