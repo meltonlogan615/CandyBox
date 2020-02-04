@@ -1,11 +1,4 @@
 		/* Global Computer/Large Screen CSS*/
-@import url("reset.css");
-@import url("About.css");
-@import url("candy-mobile.css");
-@import url("explore.css");
-@import url("forms.css");
-@import url("filterByIngredients.css")
-
 
 html {
 	/* background-image: url("../Images/melting2-resized2.png"); */
@@ -136,12 +129,8 @@ input[type=text] {
 }
 
  input[type=text]:focus {
-	width: 50%;
-	......
-
-
-
-	...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................jjj
+  width: 50%;
+}
 			/* End Navigation Search Box */
 
 /* --------------------------------------------------------*/
@@ -213,7 +202,7 @@ iframe {
 /* --------------------------------------------------------*/
 
 			/* Start Footer */
-footer.footer {
+.footer {
 	background-color: rgba(255, 255, 255, 1.0);
 	position: fixed;
 	left: 0;
@@ -223,7 +212,7 @@ footer.footer {
 	border: 1px solid black;
 	}
 	
-footer.footer ul li {
+.footer ul li {
 	/* background-color: rgba(255, 255, 255, 0.43); */
 	list-style-type: none;
 	display: inline;
@@ -232,12 +221,12 @@ footer.footer ul li {
 	border-radius: 5px;
 	}
 	
-footer.footer ul li a {
+.footer ul li a {
 	color: black;
 	text-decoration: none;
 	}
 	
-footer.footer ul li a:active {
+.footer ul li a:active {
 	font-weight: bold;
 	}
 	
@@ -245,7 +234,7 @@ footer.footer ul li a:active {
 	text-decoration: underline;
 	}
 	
-footer.copy-name {
+.copy-name {
 	text-decoraion: none;
 	font-weight: normal;
 	background-color: rgba(255, 255, 255, 0.0);
