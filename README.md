@@ -13,5 +13,5 @@
  
  # Candy Box file formatting and naming conventions:
  outside of .js files and attributes used by .js files
- all files names should be lower case.
+ all files names should be lower case
  all .html files will be single names, if one or more words are used, seperated by "-", as in "contact-us.html"
