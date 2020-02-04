@@ -3,6 +3,7 @@
  Central repository for packaged candies.
  
  File Organization:
+ 
  CandyBox = All html files
  CandyBox/explore = country specific folders. (Within folders, house img files?)
  CandyBox/images = Almost all image files
