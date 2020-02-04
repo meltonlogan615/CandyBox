@@ -20,13 +20,13 @@ body {
 }
 
 /*  Start Navigation Bar CSS */
-#navBar {
+#nav-bar {
 	float: right;
 	border: 1px, solid, black;
 	margin-right: 2em;
 	}
 
-#navBar li {
+#nav-bar li {
 	border: 1px solid black;
 	border-radius: 5px;
 	list-style-type: none;
@@ -42,12 +42,12 @@ body {
 	font-size: 16px;
 	}
 	
-#navBar li a {
+#nav-bar li a {
 	color: black;
 	text-decoration: none;
 	}
 	
-#navBar li a:hover{
+#nav-bar li a:hover{
 	text-decoration: underline;
 	}
 	
@@ -61,7 +61,7 @@ body {
   font-size: 15px;
   size: 10px;
   background-color: rgba(255, 255, 255, 0.43);
-  background-image: url("../Images/search.png");
+  background-image: url("../images/search.png");
   background-position: center;
   background-repeat: no-repeat;
   margin: 1px;

@@ -17,7 +17,7 @@
   }
 
 html {
-	background-image: url("../Images/melting2-resized2.png");
+	background-image: url("../images/melting2-resized2.png");
 	background-color: rgb(230, 230, 230);
 	background-repeat: repeat-x;
  	font-family: Ariel, Helvetica, sans-serif;
@@ -57,14 +57,14 @@ html {
 
 		/*  Start Navigation Bar CSS */
 			
-.navBar {
+.nav-bar {
 	float: right;
 	margin-right: 2em;
   overflow: hidden;
   position: relative;
 	}
 
-.navBar li {
+.nav-bar li {
 	border-radius: 5px;
 	list-style-type: none;
 	display: inline;
@@ -79,12 +79,12 @@ html {
   display: none; 
 	}
 	
-.navBar li a {
+.nav-bar li a {
 	color: black;
 	text-decoration: none;
 	}
 	
-.navBar li a:hover{
+.nav-bar li a:hover{
 	text-decoration: underline;
 	}
 	
@@ -131,7 +131,7 @@ html {
 
     /* Start Navigation Search Box */
 
-.navBar .search-container
+.nav-bar .search-container
 input[type=text] {
   width: 130px;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@ input[type=text] {
 	
 		/* Start Main Page Content */
 
-.mainContent {
+.main-content {
 	background-color: rgba(255, 255, 255, 0.43);
 	margin-top: 0.75rem; 
 	padding-top: 2rem;
