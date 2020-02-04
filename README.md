@@ -4,7 +4,7 @@
  
  File Organization:
  CandyBox = All html files
- <em>CandyBox/explore</em> = country specific folders. (Within folders, house img files?)
+ CandyBox/explore = country specific folders. (Within folders, house img files?)
  CandyBox/images = Almost all image files
  CandyBox/js = All .js files
  CandyBox/python = Repo for .py files if ever used 
