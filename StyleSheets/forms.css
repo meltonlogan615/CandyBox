@@ -1,6 +1,6 @@
 form {
 	padding-top: 0.25em;
-	
+
 	}
 
 form label {
@@ -8,9 +8,13 @@ form label {
 	float: left;
 	width: 200px;
 	text-align: left;
-;
 	}
+
+input[type="text"] {
+	
+}
 
 button {
 	text-align: right;
 	}
+
