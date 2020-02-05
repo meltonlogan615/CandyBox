@@ -8,48 +8,57 @@
 	</head>
 	
 <body>	
-	<div class="header">
-		<div class="logo"><a href="index.html">Logo Goes Here</div>		
-		<div class="nav-bar">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="explore.html">Explore</a></li>
-						<li>
-							<div class="dropdown">Profile
-  								<div class="dropdown-content">
- 								 <a href="wish-list.html">Wish List</a>
- 								 <a href="shipments.html">Shipments</a>
- 								 <a href="profile.html">Account Info</a>
- 								</div>
- 							</div>
- 						</li>
-  						<li>Search</li>
-					</ul>
-		</div>
+<div class="header">
+	<div class="logo"><a href="index.html">Logo Goes Here</div>		
+	<div class="nav-bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="explore.html">Explore</a></li>
+				<li>
+					<div class="dropdown">Profile
+						<div class="dropdown-content">
+						<a href="wish-list.html">Wish List</a>
+						<a href="shipments.html">Shipments</a>
+						<a href="profile.html">Account Info</a>
+						</div>
+					</div>
+				</li>
+			<li>Search</li>
+		</ul>
 	</div>
+</div>
 
 	<div class="main-content">
 	<h1>Reach Out</h1>
 	<p>We want to hear what you think. Local candies you think we're missing, legendary
 	candies from the other side of the world you would like to try and find, or maybe we just
 	plain got something wrong. Please feel free to reach out to us and let us know.</p>
-		<form>
-		<label class="title">Name:</label>
-		<input type = "text" name = "Name" required = "required"><br/ >
+	<form>
+	<div>		
+		<label for="name" class="title">Name:</label>
+			<input id="name" type="text" name="Name" Required>
+		</div>>
 		<!--email address-->
-		<label class="title">Email:</label>
-		<input type = "email" name = "UserEmail" required = "required">
-		<br />
+		<div>
+		<label for="email" class="title">Email:</label>
+		<input id="email" type="email" name="UserEmail" Required>
+	</div>
+	<div>
 		<!--subject-->
-		<label class="title">Subject:</label>
-		<input type = "text" name = "Subject" required = "required">
-		<br />
+		<label for="subject" class="title">Subject:</label>
+		<input id="subject" type="text" name="Subject" Required>
+	</div>
+	<div>
 		<!--text box-->
-		<label class="title">Message:</label>
-		<textarea rows = "10" cols = "50" name = "message" required = "required"></textarea>
+		<div>
+		<label for="message" class="title">Message:</label>
+		<textarea id="message" rows="10" cols="50" name="message" Required></textarea>
+	
+	</div>
 		<!--submit-->
-		<br />
+	<div>
 		<button>Holler At Us</button>
+	</div>
 <!-- insert pulldown or radio buttons to have quick selection of reasons -->
 		
 		</form>

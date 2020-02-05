@@ -6,9 +6,9 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "none") {
-      panel.style.display = "inline-flex";
+      panel.style.display="inline-flex";
     } else {
-      panel.style.display = "none";
+      panel.style.display="none";
     }
   });
 }
