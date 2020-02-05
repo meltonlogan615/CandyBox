@@ -1,6 +1,6 @@
 			/* CSS for Explore Page */
 
-.container, .p {
+.main-content {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -16,11 +16,11 @@ button {
  	box-sizing: border-box;
 	margin: 5px;
 	padding: 1px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 -4px -8px 0 rgba(0,0,0,0.2);
     transition: 0.5s;
-    -webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center;
+    -webkit-align-self: center; 
+	align-self: center; */
 	padding: auto;
 }
 
@@ -30,14 +30,19 @@ button {
 	display: flex;
 	flex-wrap: wrap;
  	box-sizing: border-box;
-	margin: 5px;
-	padding: 1px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 -4px -8px 0 rgba(0,0,0,0.2);
   transition: 0.5s;
-  -webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center;
-	padding: auto;
+  -webkit-align-self: center; 
+	align-self: center; */
+
+
+}
+
+.itemCard {
+	justify-items: auto;
+
 }
 
 
@@ -103,11 +108,11 @@ button {
 /* --------------------------------------------------------*/
 	
 			/* Start CSS for Brand Pages */
-.brandLogo {
+/* .brandLogo {
 	width: 35%;
-	-webkit-align-content: center; /* Safari 7.0+ */
+	-webkit-align-content: center; 
 	justify-content: center;
 	align-content: center;
 	margin: auto;
-}
+} */
 
