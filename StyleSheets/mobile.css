@@ -1,7 +1,7 @@
 /* Global Mobile Devices Screen CSS*/
 
 html {
-	background-image: url("../images/brownsac.jpg");
+	background-image: url("../Images/brownsac.jpg");
 	background-color: B37646;
 	font-family: Ariel, Helvetica, sans-serif;
 	height: 100%;
@@ -34,7 +34,7 @@ body {
 	margin: 1px;
 	padding: 3px;
 	background-color: rgba(255, 255, 255, 0.43);
-	background-image: url("images/search.png");
+	background-image: url("Images/search.png");
 	color: black;
 	text-align: center;
 	margin-right: 3px

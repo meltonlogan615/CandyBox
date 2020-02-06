@@ -11,7 +11,7 @@
 - CandyBox/js = All .js files
 - CandyBox/python = Repo for .py files if ever used 
 - CandyBox/snippets = code not used, but could be useful later
-- CandyBox/stylesheets = All CSS & SCSS (once I learn that jazz)
+- CandyBox/StyleSheets = All CSS & SCSS (once I learn that jazz)
  
  # Candy Box file formatting and naming conventions:
  outside of .js files and attributes used by .js files:
