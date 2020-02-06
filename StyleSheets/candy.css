@@ -183,15 +183,14 @@ input[type=text] {
 
 			/* End SlideShow */
 
-.sideBarAds {
+/* .sideBarAds {
 	margin-top: 0.75em; 
 	padding-left: 0.5%;
 	padding-right: 1%;
 	float: right;
-	diplay: inline;
 	width: 12%;
 	position: sticky;
-	}
+	} */
 
 iframe {
 	width: 78%;
@@ -236,7 +235,7 @@ iframe {
 	}
 	
 .copy-name {
-	text-decoraion: none;
+	text-decoration: none;
 	font-weight: normal;
 	background-color: rgba(255, 255, 255, 0.0);
 	float: right;
