@@ -1,0 +1,258 @@
+    /* Global Mobile Screen CSS*/
+    
+    /* For tablets: */
+@media only screen and (max-width:800px) {
+   .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+     /* For mobile phones: */
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+
+html {
+	background-image: url("../images/melting2-resized2.png");
+	background-color: rgb(230, 230, 230);
+	background-repeat: repeat-x;
+ 	font-family: Ariel, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.active {
+	font-weight: bold;
+	}
+
+    /* End Global Computer/Large Screen CSS*/
+
+/* --------------------------------------------------------*/
+
+			/* Start Header CSS */
+
+.header {
+	height: 3.5em;
+	background-color: rgba(255, 255, 255, 0.63);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+	width: 100%;
+}
+
+.logo {
+	margin-top: 1em;
+	margin-left: 1em;
+	float: left;
+	text-decoration: none;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/* --------------------------------------------------------*/
+
+		/*  Start Navigation Bar CSS */
+			
+.nav-bar {
+	float: right;
+	margin-right: 2em;
+  overflow: hidden;
+  position: relative;
+	}
+
+.nav-bar li {
+	border-radius: 5px;
+	list-style-type: none;
+	display: inline;
+	margin: 0.0625em;
+	padding: 0.3em;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-right: 0.1875em;
+	overflow: hidden;
+  font-size: 1em;
+  display: none; 
+	}
+	
+.nav-bar li a {
+	color: black;
+	text-decoration: none;
+	}
+	
+.nav-bar li a:hover{
+	text-decoration: underline;
+	}
+	
+		/* End Navigation Bar CSS */
+
+/* --------------------------------------------------------*/
+
+		/* Start Profile Dropdown Navigation*/
+			
+.dropdown {
+	position: relative;
+	display: inline-block;
+	color: black;
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	padding-right: 20%;
+	min-width: 100px;
+	background-color: rgba(255, 255, 255, 0.73);
+	z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: rgba(255, 255, 255, 0.43);
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-right: 20%;
+}
+			/* End Profile Dropdown Navigation*/
+
+/* --------------------------------------------------------*/
+
+    /* Start Navigation Search Box */
+
+.nav-bar .search-container
+input[type=text] {
+  width: 130px;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+ input[type=text]:focus {
+  width: 50%;
+}
+		/* End Navigation Search Box */
+
+/* --------------------------------------------------------*/
+
+		/* End Navigation Bar CSS */
+
+/* --------------------------------------------------------*/
+	
+		/* Start Main Page Content */
+
+.main-content {
+	background-color: rgba(255, 255, 255, 0.43);
+	margin-top: 0.75rem; 
+	padding-top: 2rem;
+	padding-left: 1rem;
+	padding-bottom: 2.5rem;
+	float: left;
+	width: 83%;
+	}
+
+/* --------------------------------------------------------*/
+	
+			/* Start SlideShow */
+
+.slideshow-container {
+  max-width: 80%x;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+			/* End SlideShow */
+
+.sideBarAds {
+	margin-top: 0.75em; 
+	padding-left: 0.5%;
+	padding-right: 1%;
+	float: right;
+	width: 12%;
+  position: sticky;
+  display: none;
+	}
+
+/* iframe {
+	width: 78%;
+	height: 600px;
+	} */
+
+			/*  End Main Page Content */
+			
+/* --------------------------------------------------------*/
+
+			/* Start Footer */
+.footer {
+	background-color: rgba(255, 255, 255, 0.43);
+	/*float: bottom;
+	z-index: 1;*/
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3em;
+	}
+	
+.footer ul li {
+	background-color: rgba(255, 255, 255, 0.43);
+	list-style-type: none;
+	display: inline;
+	margin: 0.25em;
+	padding: 0.25em;
+	border-radius: 5px;
+	}
+	
+.footer ul li a {
+	color: black;
+	text-decoration: none;
+	}
+	
+.footer ul li a:active {
+	font-weight: bold;
+	}
+	
+.footer ul li a:hover{
+	text-decoration: underline;
+	}
+	
+.copy-name {
+	text-decoraion: none;
+	font-weight: normal;
+	background-color: rgba(255, 255, 255, 0.0);
+	float: right;
+}
+			/* End Footer */
+			
