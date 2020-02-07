@@ -9,65 +9,48 @@
 
 
 button {
-	border-radius: 10px;
-	background: rgba(255, 255, 255 , 0.43);
+	border: 1px solid magenta;
 	display: flex;
 	flex-wrap: wrap;
- 	box-sizing: border-box;
-	margin: 5px;
-	padding: 1px;
-	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	box-shadow: 0 -4px -8px 0 rgba(0,0,0,0.2);
-    transition: 0.5s;
-    -webkit-align-self: center; 
-	align-self: center; */
+	box-sizing: border-box;
 	padding: auto;
 }
 
-.flag {
-	border-radius: 10px;
+.flag {	
 	background: rgba(255, 255, 255 , 0.43);
 	display: flex;
 	flex-wrap: wrap;
- 	box-sizing: border-box;
-
-	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	box-shadow: 0 -4px -8px 0 rgba(0,0,0,0.2);
-  transition: 0.5s;
-  -webkit-align-self: center; 
-	align-self: center; */
-
-
+	box-sizing: border-box;
 }
 
 .itemCard {
-	justify-items: auto;
-
+	padding: 2rem;
+	margin: auto;
+	max-width: 10rem;
+	max-height: 10rem;
 }
 
 
-	
-.container .flag:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+.country-flag { 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-	
+.country-flag:hover {
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+
 
 
 			/* Start CSS for Accordion */
 
 .accordion {
-	border-radius: 10px;
-	background: rgba(255, 255, 255 , 0.43);
+	border: 1px solid magenta;
+	background: rgba(255, 255, 255, 1.0);
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	margin: 5px;
-	padding: 1px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.5s;
-	-webkit-align-self: center; /* Safari 7.0+ */
 	align-self: center;
 	padding: auto;
 	cursor: pointer;
@@ -77,40 +60,33 @@ button {
 	transition: 0.9s;
 }
 
-.accordion:hover {
-	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-}
-
-.accordion:active {
-	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-}
-
 .panel {
-	padding: 0 18px;
+
 	overflow: hidden;
 	display: none;
-	flex-wrap: wrap; 
-	-webkit-align-self: center; /* Safari 7.0+ */
-	align-self: center;
+	flex-wrap: wrap;
+	align-content: center;
 	justify-content: center;
 	padding: auto;
 }
 
 #countryBrands {
+	background: rgba(255, 255, 255, 1.0);
 	display: none;
 }
 
-			
+figure {
+	background: rgba(255, 255, 255, 1.0);
+}
+
 			/* End CSS for Accordion */
 
 /* --------------------------------------------------------*/
-	
+
 			/* Start CSS for Brand Pages */
 /* .brandLogo {
 	width: 35%;
-	-webkit-align-content: center; 
+	-webkit-align-content: center;
 	justify-content: center;
 	align-content: center;
 	margin: auto;

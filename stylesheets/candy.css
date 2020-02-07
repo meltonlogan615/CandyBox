@@ -8,6 +8,7 @@ html {
 	background-repeat: repeat-x;
 	font-family: Ariel, Helvetica, sans-serif;
 	font-size: 16px;
+	letter-spacing: 0.0875rem;
 }
 
 .active {
@@ -21,25 +22,24 @@ html {
 			/* Start Header CSS */
 			
 .header {
-	height: 3.5em;
+	height: 3.5rem;
 	background-color: rgba(255, 255, 255, 1.0);
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 3em;
 	margin-bottom: 5rem;
 }
 
 .logo {
-	margin-top: 2em;
-	margin-left: 1em;
+	margin-left: 1rem;
+	padding: 1rem;
 	float: left;
 	text-decoration: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+
 }
 
 /* --------------------------------------------------------*/
@@ -48,21 +48,20 @@ html {
 			
 .nav-bar {
 	float: right;
-	margin-right: 2em;
-
+	margin-right: 2rem;
 	}
 
 .nav-bar li {
-	border-radius: 5px;
 	list-style-type: none;
 	display: inline;
-	margin: 0.0625em;
-	padding: 0.3em;
+	margin: 0.0625rem;
+	margin-right: 0.1875rem;
+	padding: 0.5rem;
 	color: black;
 	text-align: center;
-	margin-right: 0.1875em;
 	overflow: hidden;
-	font-size: 1em;
+	font-size: 1rem;
+	
 	}
 	
 .nav-bar li a {
