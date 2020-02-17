@@ -45,7 +45,6 @@ button {
 			/* Start CSS for Accordion */
 
 .accordion {
-	border: 1px solid magenta;
 	background: rgba(255, 255, 255, 1.0);
 	display: flex;
 	flex-wrap: wrap;

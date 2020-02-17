@@ -11,10 +11,10 @@ form label {
 	}
 
 input[type="text"] {
-	color: red;
+	color: black;
 }
 
 button {
-	text-align: right;
+	align-self: right;
 	}
 
