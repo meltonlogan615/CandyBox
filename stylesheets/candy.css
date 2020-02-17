@@ -143,10 +143,9 @@ input[type=text] {
 			/* Start Main Page Content */
 			
 .main-content {
-	/* background-color: rgba(255, 255, 255, 0.43); */
-	margin-top: 4rem; 
-	padding-top: 2rem;
-	padding-bottom: 2.5rem;
+	margin-top: 4em; 
+	padding-top: 2em;
+	padding-bottom: 2.5em;
 	}
 
 /* --------------------------------------------------------*/
@@ -191,10 +190,6 @@ input[type=text] {
 	position: sticky;
 	} */
 
-iframe {
-	width: 78%;
-	height: 600px;
-	}
 
 			/*  End Main Page Content */
 			
