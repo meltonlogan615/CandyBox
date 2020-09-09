@@ -1,87 +1,90 @@
-			/* CSS for Explore Page */
+/* CSS for Explore Page */
 
 .main-content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
 }
-
 
 button {
-	display: flex;
-	flex-wrap: wrap;
-	box-sizing: border-box;
-	padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  box-sizing: border-box;
+  padding: auto;
+  border-radius: 50px;
+  background: red;
+  box-shadow: 13px 13px 20px #adadad, -13px -13px 20px #ffffff;
 }
 
-.flag {	
-	background: rgba(255, 255, 255 , 0.43);
-	display: flex;
-	flex-wrap: wrap;
-	box-sizing: border-box;
+.flag {
+  margin: 1rem;
+  padding: 1.5rem;
+  background: rgba(235, 235, 235, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-radius: 51px;
+  box-shadow: 5px 5px 9px #adadad, -5px -5px 13px rgb(255, 255, 255);
+}
+
+.flag:hover {
+  
+}
+
+flag:active {
+  border-radius: 51px;
+  background: rgb(235, 235, 235);
+  box-shadow: inset 13px 13px 26px #adadad, inset -13px -13px 26px #ffffff;
 }
 
 .itemCard {
-	padding: 2rem;
-	margin: auto;
-	max-width: 10rem;
-	max-height: 10rem;
+  padding: 2rem;
+  margin: auto;
+  max-width: 10rem;
+  max-height: 10rem;
 }
 
-
-.country-flag { 
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.country-flag:hover {
-	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
-	transition: 0.9s;
-}
-
-
-
-
-			/* Start CSS for Accordion */
+/* Start CSS for Accordion */
 
 .accordion {
-	background: rgba(255, 255, 255, 1.0);
-	display: flex;
-	flex-wrap: wrap;
-	box-sizing: border-box;
-	align-self: center;
-	padding: auto;
-	cursor: pointer;
-	text-align: left;
-	border: none;
-	outline: none;
-	transition: 0.9s;
+  background: rgba(235, 235, 235, 1);
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-self: center;
+  padding: auto;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.9s;
 }
 
 .panel {
-
-	overflow: hidden;
-	display: none;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: center;
-	padding: auto;
+  overflow: hidden;
+  display: none;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: auto;
 }
 
 #countryBrands {
-	background: rgba(255, 255, 255, 1.0);
-	display: none;
+  background: rgba(255, 255, 255, 1);
+  display: none;
 }
 
 figure {
-	background: rgba(255, 255, 255, 1.0);
+  background: rgba(255, 255, 255, 1);
 }
 
-			/* End CSS for Accordion */
+/* End CSS for Accordion */
 
 /* --------------------------------------------------------*/
 
-			/* Start CSS for Brand Pages */
+/* Start CSS for Brand Pages */
 /* .brandLogo {
 	width: 35%;
 	-webkit-align-content: center;
@@ -89,4 +92,3 @@ figure {
 	align-content: center;
 	margin: auto;
 } */
-
